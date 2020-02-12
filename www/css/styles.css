@@ -1,0 +1,129 @@
+html{
+    font-size: 14px;
+}
+.clr:after{
+    content: "";
+    display:block;
+    clear: both;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: #8dc63f;
+}
+.bottom,
+body,
+.phones p,
+.logo p {
+    margin: 0;
+}
+.menu a,
+.phones a,
+.content h1,
+.phones p,
+.logo p{
+    color: #39930d;
+}
+.content p,
+.phones i,
+.logo i{
+    color: #5a5a5a;
+}
+.basic{
+    background-color: white;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header{
+    padding: 25px 0;
+}
+.bottom,
+.menu p{
+    background-color: #39930d;
+    color: white;
+}
+.ball,
+.logo p{
+    float: left;
+} 
+.ball{
+    padding-left: 25px;
+    transition: all 2s ease;
+}
+.phones a,
+.logo p{
+    font-size: 22px;
+}
+.logo b{
+    font-size: 44px;
+    display: block;
+}
+.phones a{
+    text-decoration: none;
+    display: block;
+}
+.phones{
+    text-align: right;
+    float: right;
+}
+.bottom,
+.phones i,
+.logo i{
+    font-size: 14px;
+}
+.field{
+    width: 100%;
+}
+.main{
+    padding-bottom: 45px;
+}
+.content{
+    float: left;
+    max-width: 600px;
+}
+.content h1{
+    font-size: 24px;
+}
+.content p{
+    line-height: 1.5em;
+}
+.menu{
+    float: right;
+    width: 300px;
+}
+.menu a{
+    text-transform: uppercase;
+}
+.menu p{
+    font-size: 18px;
+}
+.menu ul{
+    padding-left: 20px;
+    list-style: none;
+}
+.menu li{
+    margin-bottom: 15px;
+}
+.bottom,
+.p{
+    padding: 10px;
+}
+.bottom{
+    margin: 0 -15px;
+}
+.p{
+    padding-left: 20px;
+}
+.ball:hover{
+    margin-left: 250px; 
+}
+.menu a:hover{
+    background-color: #39930d;
+    color: white;
+    font-weight: bold;
+    display: block;
+    text-decoration: none;
+}
+.basic{
+    box-sizing: border-box;
+}
