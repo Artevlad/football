@@ -114,9 +114,6 @@ body,
 .p{
     padding-left: 20px;
 }
-.ball:hover{
-    margin-left: 250px; 
-}
 .menu a:hover{
     background-color: #39930d;
     color: white;
@@ -126,4 +123,61 @@ body,
 }
 .basic{
     box-sizing: border-box;
+}
+@media screen and (max-width: 930px){
+    .main{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .menu{
+        width: 100%;
+    }
+    .content{
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 600px){
+    .logo{
+        width: 350px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    .ball{
+        float: none;
+    }
+    .phones{
+        text-align: center;
+        float: none;
+    }
+    .field{
+        height: 200px;
+        object-fit: cover;
+        object-position: 75%;
+    }
+}
+@media screen and (max-width: 400px){
+    .header{
+        text-align: center;
+        overflow: hidden;
+    }
+    .ball{
+        padding-left: 0;
+        padding-top: 20px;
+    }
+    .logo p,
+    .ball{
+        float: none;
+    }
+}
+@media screen and (max-width: 380px){
+    .logo{
+        width: 222px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+}
+@media screen and (max-width: 320px){
+    .p{
+        width: 260px;
+    }
 }
